@@ -1,0 +1,14 @@
+.login{
+    max-width: 500px;
+    max-height: 500px;
+    background-color: darkgrey;
+    border-color: brown;
+    border-width: 4px;
+    border-style: solid;
+}
+    .icono{
+        background-color: rgb(16, 187, 199);
+        border-radius: 100%;
+        border-style: solid;
+        border-width: 1px;
+    }

@@ -1,0 +1,8 @@
+.barra{
+    background-color: rgb(48, 42, 42);
+    margin-left: 0;
+    margin-top: 0;    
+    position:fixed;
+    top: 0;
+    z-index: 100;
+}

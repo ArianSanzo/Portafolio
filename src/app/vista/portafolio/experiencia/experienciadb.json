@@ -1,0 +1,12 @@
+{
+    "experiencia": [
+      {
+        "id": 1,
+        "lugar": "Por ahi",
+        "puesto": "Vagabundo",
+        "periodo": "2000 - 2006",
+        "logo": "url",
+        "descripcion": "No hacia nada"
+      }
+    ]
+  }

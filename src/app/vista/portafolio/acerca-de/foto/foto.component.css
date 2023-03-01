@@ -1,0 +1,23 @@
+.marcoFoto{
+    margin-top: -60px;
+}
+.foto{
+    position: relative;
+    max-width: 125px;
+    max-height: 125px;
+}
+@media screen and (min-width: 576px){
+    .marcoFoto{
+        margin-top: -60px;
+    }
+}
+.prueba{
+    background-color: aqua;
+    height: 50px;
+}
+@media screen and (max-width: 575px){
+    .foto{
+        max-width: 100px;
+        max-height: 100px;
+    }
+}
