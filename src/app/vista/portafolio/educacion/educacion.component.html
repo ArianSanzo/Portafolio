@@ -1,14 +1,17 @@
-<div class="container-fluid container-sm">
+<div class="container-fluid container-sm seccionInfo">
+  <div class="seccionTitulo">
     <h2>Educación:</h2>
-    <div class="row" style="color: black">
-      <div class="col"> 
-        <app-establecimiento></app-establecimiento>
-      </div> 
-      <div class="col">
-        <app-establecimiento></app-establecimiento>
-      </div>  
-      <div class="col">
-        <app-establecimiento></app-establecimiento>
-      </div>
+    <app-boton-agregar 
+        ></app-boton-agregar>
+  </div>
+  <div class="container.fluid">  
+    <div style="display: flex; align-items: center; justify-content: center;"
+    class="row">
+      <app-establecimiento
+      *ngFor="let establecimiento of establecimientos"
+      [establecimiento] = "establecimiento"
+      class="col-auto"
+      ></app-establecimiento>
     </div>
+  </div>
 </div>

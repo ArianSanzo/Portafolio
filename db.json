@@ -1,19 +1,88 @@
 {
-  "posts": [
+  "establecimientos": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "lugar": "UNR",
+      "titulo": "Quimica",
+      "periodo": "2010 - 2016",
+      "logo": "logo"
+    },
+    {
+      "id": 2,
+      "lugar": "UBA",
+      "titulo": "Fisica",
+      "periodo": "2006 - 2010",
+      "logo": "logo"
+
+    },
+    {
+      "id": 3,
+      "lugar": "Poli",
+      "titulo": "Tecnica",
+      "periodo": "2000 - 2006",
+      "logo": "logo"
+    },
+    {
+      "id": 3,
+      "lugar": "Poli",
+      "titulo": "Tecnica",
+      "periodo": "2000 - 2006",
+      "logo": "logo"
+    },
+    {
+      "id": 3,
+      "lugar": "Poli",
+      "titulo": "Tecnica",
+      "periodo": "2000 - 2006",
+      "logo": "logo"
+    },
+    {
+      "id": 3,
+      "lugar": "Poli",
+      "titulo": "Tecnica",
+      "periodo": "2000 - 2006",
+      "logo": "logo"
+    },
+    {
+      "id": 3,
+      "lugar": "Poli",
+      "titulo": "Tecnica",
+      "periodo": "2000 - 2006",
+      "logo": "logo"
     }
   ],
-  "comments": [
+  "trabajos": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "lugar": "Mercado Libre",
+      "puesto": "Mantenimiento",
+      "periodo": "2000 - 2006",
+      "logo": "logo",
+      "descripcion": "Mantenimiento de pags"
+    },
+    {
+      "id": 2,
+      "lugar": "Globant",
+      "puesto": "Desarrollador",
+      "periodo": "2006 - 2020",
+      "logo": "logo",
+      "descripcion": "Desarrollo de pags"
+    },
+    {
+      "id": 3,
+      "lugar": "Libertad",
+      "puesto": "Repositor",
+      "periodo": "2020 - 2023",
+      "logo": "logo",
+      "descripcion": "Reponia productos"
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "habilidades":[
+    {
+      "id": 1,
+      "habilidad": "Sociable",
+      "porcentaje": 60
+    }
+
+  ] 
 }

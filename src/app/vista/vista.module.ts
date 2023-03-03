@@ -17,6 +17,7 @@ import { EstablecimientoComponent } from './portafolio/educacion/establecimiento
 import { TrabajoComponent } from './portafolio/experiencia/trabajo/trabajo.component';
 import { ProyectoComponent } from './portafolio/proyectos/proyecto/proyecto.component';
 import { HabilidadComponent } from './portafolio/habilidades/habilidad/habilidad.component';
+import { BotonAgregarComponent } from './portafolio/componentes/boton-agregar/boton-agregar.component';
 
 
 
@@ -38,7 +39,8 @@ import { HabilidadComponent } from './portafolio/habilidades/habilidad/habilidad
     EstablecimientoComponent,
     TrabajoComponent,
     ProyectoComponent,
-    HabilidadComponent
+    HabilidadComponent,
+    BotonAgregarComponent
   ],
   imports: [
     CommonModule

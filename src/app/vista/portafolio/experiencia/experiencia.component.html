@@ -1,14 +1,13 @@
-<div class="container-fluid container-sm">
-    <h2>Experiencia:</h2>
-    <div class="row" style="color: black">
-      <div class="col">
-        <app-trabajo></app-trabajo>
-      </div>
-      <div class="col">
-        <app-trabajo></app-trabajo>          
-      </div>
-      <div class="col">
-        <app-trabajo></app-trabajo>              
-      </div>
-  </div>
+<div class="container-fluid container-sm seccionInfo">
+    <div class="seccionTitulo">
+        <h2>Experiencia:</h2>
+        <app-boton-agregar 
+        ></app-boton-agregar>
+    </div>
+    <div>
+        <app-trabajo
+        *ngFor="let trabajo of trabajos"
+        [trabajo] = "trabajo"
+        ></app-trabajo>
+    </div>
 </div>
