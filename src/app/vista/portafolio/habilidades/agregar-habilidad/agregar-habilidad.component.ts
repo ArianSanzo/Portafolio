@@ -12,8 +12,8 @@ export class AgregarHabilidadComponent {
 
   @Output() onAddHabilidad: EventEmitter<Habilidad> = new EventEmitter();
 
-  habilidad!:string ;
-  porcentaje!:number ;
+  habilidad:string = "" ;
+  porcentaje:number = 0 ;
 
   showaddHabilidad: boolean = false;
   subscription2?: Subscription;

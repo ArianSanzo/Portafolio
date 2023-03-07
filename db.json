@@ -23,7 +23,15 @@
       "periodo": "2003-2004",
       "logo": "feads",
       "descripcion": "Trabajo trabajando",
-      "id": 3
+      "id": 4
+    },
+    {
+      "lugar": "Nuevo trabajo",
+      "puesto": "Trabajador",
+      "periodo": "2003-2004",
+      "logo": "feads",
+      "descripcion": "Trabajo trabajando",
+      "id": 6
     }
   ],
   "habilidades": [
@@ -31,6 +39,11 @@
       "id": 1,
       "habilidad": "Sociable",
       "porcentaje": 30
+    },
+    {
+      "habilidad": "Trabajador",
+      "porcentaje": 70,
+      "id": 3
     }
   ],
   "proyectos": [
