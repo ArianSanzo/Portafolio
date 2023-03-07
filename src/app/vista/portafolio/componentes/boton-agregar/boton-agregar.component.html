@@ -1,3 +1,7 @@
-<button type="button" class="btn btn-success">
-    {{textoBoton}}
+<button type="button" 
+class="btn btn-success"
+[ngStyle]="{'background-color': color}"
+(click)="onClick()"
+>
+    {{text}}
 </button>

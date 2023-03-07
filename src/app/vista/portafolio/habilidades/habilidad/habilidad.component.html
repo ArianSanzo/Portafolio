@@ -1,3 +1,13 @@
-<div class="progress" role="progressbar" aria-label="Success striped example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-    <div class="progress-bar progress-bar-striped bg-success" style="width: 25%"></div>
-  </div>
+<h4>{{habilidad.habilidad}} 
+  <i class="bi bi-x-lg" 
+  style="float: right; color: red"
+  (click)="onDelete(habilidad)"
+  ></i></h4>
+<div class="progress">
+  <div class="progress-bar progress-bar-striped progress-bar-animated habilidades" 
+  role="progressbar" 
+  aria-valuenow="75" 
+  aria-valuemin="0" 
+  aria-valuemax="100" 
+  style="width: {{habilidad.porcentaje}}%"></div>
+</div>

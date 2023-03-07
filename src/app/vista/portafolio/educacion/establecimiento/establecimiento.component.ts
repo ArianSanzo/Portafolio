@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
 import { Establecimiento } from './establecimiento';
 
@@ -10,7 +10,11 @@ import { Establecimiento } from './establecimiento';
 export class EstablecimientoComponent implements OnInit {
 
   @Input() establecimiento! : Establecimiento
+  @Output() onDeleteEstablecimiento: EventEmitter<Establecimiento> = new EventEmitter()
+  ngOnInit(){}
 
-  ngOnInit() {}
+  onDelete(establecimiento: Establecimiento){
+    this.onDeleteEstablecimiento.emit(establecimiento)
+  }
 
 }

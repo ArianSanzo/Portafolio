@@ -20,4 +20,9 @@ export class EducacionComponent {
     this.educacionService.getFormacion().subscribe((establecimientos)=> (this.establecimientos = establecimientos));
   };
 
+  deleteEstablecimiento(establecimiento: Establecimiento){
+    this.educacionService.deleteEstablecimiento(establecimiento).subscribe(()=>
+    this.establecimientos = this.establecimientos.filter( t => t.id !== establecimiento.id))
+  }
+
 }

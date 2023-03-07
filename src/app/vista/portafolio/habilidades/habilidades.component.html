@@ -1,10 +1,18 @@
 <div class="container-sm container-fluid seccionInfo">
+  <div class="seccionTitulo">
     <h2>Habilidades:</h2>
-    <div>
-      <app-habilidad></app-habilidad>
-      <app-habilidad></app-habilidad>
-      <app-habilidad></app-habilidad>
-      <app-habilidad></app-habilidad>
-      <app-habilidad></app-habilidad>
-    </div>
+    <app-boton-agregar
+    color="{{showaddHabilidad ? 'red' : 'green'}}"
+    text="{{showaddHabilidad ? 'Cerrar' : 'Agregar Habilidad'}}"
+    (btnClick)="toggleAddHabilidad()"></app-boton-agregar>
+  </div>
+  <app-agregar-habilidad
+  (onAddHabilidad)="addHabilidad($event)"></app-agregar-habilidad>
+  <div>
+    <app-habilidad
+    *ngFor="let habilidad of habilidades"
+    [habilidad]="habilidad"
+    (onDeleteHabilidad)="deleteHabilidad(habilidad)"
+    ></app-habilidad>
+  </div>
 </div>

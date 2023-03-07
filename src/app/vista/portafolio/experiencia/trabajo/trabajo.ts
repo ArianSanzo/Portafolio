@@ -1,5 +1,5 @@
 export interface Trabajo{
-    id: number;
+    id?: number;
     lugar: string;
     puesto: string;
     periodo: string;

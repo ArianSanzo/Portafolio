@@ -1,6 +1,12 @@
 <div class="card" style="max-width: 300px; color: black;">
     <img src="assets\img\images.jpg" class="card-img-top" alt="...">
     <div class="card-body">
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <h4> {{establecimiento.lugar}} </h4>
+      <p class="card-text" style="display: inline;"> {{establecimiento.titulo}}: {{establecimiento.periodo}}</p>
+      <i class="bi bi-x-lg" 
+      style="float: right; color: red"
+      (click)="onDelete(establecimiento)"
+      ></i>
+      
     </div>
   </div>

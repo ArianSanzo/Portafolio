@@ -1,0 +1,23 @@
+<form style="background-color: brown;"
+(ngSubmit)="onSubmit()"
+*ngIf="showaddHabilidad"
+>
+   <div class="form-group">
+    <label for="habilidad">
+        Habilidad:
+    </label>
+    <input type="text" id="habilidad" placeholder="Ej: Sociable"
+    class="form-control"
+    [(ngModel)]="habilidad"/>
+   </div>
+   <div class="form-group">
+    <label for="porcentaje">
+        Porcentaje:
+    </label>
+    <input type="number" min="0" max="100" placeholder=""
+    class="form-control"
+    [(ngModel)]="porcentaje">
+   </div>
+    
+    <button type="submit" value="Guardar Habilidad" class="btn btn-primary">Submit</button>
+  </form>

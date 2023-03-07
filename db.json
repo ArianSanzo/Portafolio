@@ -6,49 +6,6 @@
       "titulo": "Quimica",
       "periodo": "2010 - 2016",
       "logo": "logo"
-    },
-    {
-      "id": 2,
-      "lugar": "UBA",
-      "titulo": "Fisica",
-      "periodo": "2006 - 2010",
-      "logo": "logo"
-
-    },
-    {
-      "id": 3,
-      "lugar": "Poli",
-      "titulo": "Tecnica",
-      "periodo": "2000 - 2006",
-      "logo": "logo"
-    },
-    {
-      "id": 3,
-      "lugar": "Poli",
-      "titulo": "Tecnica",
-      "periodo": "2000 - 2006",
-      "logo": "logo"
-    },
-    {
-      "id": 3,
-      "lugar": "Poli",
-      "titulo": "Tecnica",
-      "periodo": "2000 - 2006",
-      "logo": "logo"
-    },
-    {
-      "id": 3,
-      "lugar": "Poli",
-      "titulo": "Tecnica",
-      "periodo": "2000 - 2006",
-      "logo": "logo"
-    },
-    {
-      "id": 3,
-      "lugar": "Poli",
-      "titulo": "Tecnica",
-      "periodo": "2000 - 2006",
-      "logo": "logo"
     }
   ],
   "trabajos": [
@@ -61,28 +18,48 @@
       "descripcion": "Mantenimiento de pags"
     },
     {
-      "id": 2,
-      "lugar": "Globant",
-      "puesto": "Desarrollador",
-      "periodo": "2006 - 2020",
-      "logo": "logo",
-      "descripcion": "Desarrollo de pags"
-    },
-    {
-      "id": 3,
-      "lugar": "Libertad",
-      "puesto": "Repositor",
-      "periodo": "2020 - 2023",
-      "logo": "logo",
-      "descripcion": "Reponia productos"
+      "lugar": "Nuevo trabajo",
+      "puesto": "Trabajador",
+      "periodo": "2003-2004",
+      "logo": "feads",
+      "descripcion": "Trabajo trabajando",
+      "id": 3
     }
   ],
-  "habilidades":[
+  "habilidades": [
     {
       "id": 1,
       "habilidad": "Sociable",
-      "porcentaje": 60
+      "porcentaje": 30
     }
-
-  ] 
+  ],
+  "proyectos": [
+    {
+      "id": 1,
+      "nombre": "Portafolio virtual",
+      "enlace": "C:/Users/arian/OneDrive/Escritorio/Portafolio/src/assets/img/images.jpg",
+      "descripcion": "Proyecto de Argentina Programa 4.0",
+      "fecha": "15/5/2023",
+      "muestra": true,
+      "captura": ""
+    },
+    {
+      "id": 2,
+      "nombre": "Proyecto futuro",
+      "enlace": "",
+      "descripcion": "Proyecto de Argentina Programa 4.0",
+      "fecha": "30/7/2023",
+      "muestra": false,
+      "captura": ""
+    },
+    {
+      "id": 3,
+      "nombre": "Otro proyecto futuro",
+      "enlace": "",
+      "descripcion": "Proyecto de Argentina Programa 4.0",
+      "fecha": "10/2/2024",
+      "muestra": false,
+      "captura": ""
+    }
+  ]
 }

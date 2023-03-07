@@ -17,4 +17,8 @@ export class EducacionService {
   getFormacion(): Observable<Establecimiento[]>  {
     return this.http.get<Establecimiento[]>(this.apieducacionurl)
   }
+  deleteEstablecimiento(establecimiento: Establecimiento): Observable<Establecimiento>{
+    const url = `${this.apieducacionurl}/${establecimiento.id}`;
+    return this.http.delete<Establecimiento>(url)
+  }
 }

@@ -6,11 +6,14 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
   styleUrls: ['./boton-agregar.component.css']
 })
 export class BotonAgregarComponent {
-  textoBoton:string = "Agregar";
-
+  @Output() btnClick = new EventEmitter();
+  @Input() color: string = "";
+  @Input() text:string = "";
   constructor(){}
 
   ngOnInit() : void {
-
+  }
+  onClick(){
+    this.btnClick.emit();
   }
 }

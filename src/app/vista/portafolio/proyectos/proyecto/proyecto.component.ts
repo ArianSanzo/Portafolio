@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+
+import { Proyecto } from './proyecto';
 
 @Component({
   selector: 'app-proyecto',
@@ -6,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./proyecto.component.css']
 })
 export class ProyectoComponent {
+@Input() proyecto!: Proyecto
+
 
 }

@@ -2,12 +2,19 @@
     <div class="seccionTitulo">
         <h2>Experiencia:</h2>
         <app-boton-agregar 
+        color="{{showaddTrabajo ? 'red' : 'green'}}"
+        text="{{showaddTrabajo ? 'Cerrar' : 'Agregar trabajo'}}"
+        (btnClick)="toggleAddTrabajo()"
         ></app-boton-agregar>
     </div>
+    <app-agregar-trabajo
+    (onAddTrabajo)="addTrabajo($event)"
+    ></app-agregar-trabajo>
     <div>
         <app-trabajo
         *ngFor="let trabajo of trabajos"
         [trabajo] = "trabajo"
+        (onDeleteTrabajo)="deleteTrabajo(trabajo)"
         ></app-trabajo>
     </div>
 </div>

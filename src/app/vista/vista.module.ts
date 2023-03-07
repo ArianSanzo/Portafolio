@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
+
 import { PortafolioComponent } from './portafolio/portafolio.component';
 import { HeaderComponent } from './portafolio/header/header.component';
 import { BannerComponent } from './portafolio/header/banner/banner.component';
@@ -18,6 +20,8 @@ import { TrabajoComponent } from './portafolio/experiencia/trabajo/trabajo.compo
 import { ProyectoComponent } from './portafolio/proyectos/proyecto/proyecto.component';
 import { HabilidadComponent } from './portafolio/habilidades/habilidad/habilidad.component';
 import { BotonAgregarComponent } from './portafolio/componentes/boton-agregar/boton-agregar.component';
+import { AgregarTrabajoComponent } from './portafolio/experiencia/agregar-trabajo/agregar-trabajo.component';
+import { AgregarHabilidadComponent } from './portafolio/habilidades/agregar-habilidad/agregar-habilidad.component';
 
 
 
@@ -40,10 +44,13 @@ import { BotonAgregarComponent } from './portafolio/componentes/boton-agregar/bo
     TrabajoComponent,
     ProyectoComponent,
     HabilidadComponent,
-    BotonAgregarComponent
+    BotonAgregarComponent,
+    AgregarTrabajoComponent,
+    AgregarHabilidadComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    FormsModule
   ],
   exports: [
     PortafolioComponent
